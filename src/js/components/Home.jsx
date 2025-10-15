@@ -1,12 +1,17 @@
 import React from "react";
-import Navbar from "./Navbar";
+import NavBar from "./NavBar";
 import Card from "./Card";
 import Jumbotron from "./Jumbotron";
 
 const Home = () => {
 	return (
 			<div>
-				<Navbar />
+				<NavBar/>
+				<Jumbotron/>
+				<Card/>
+				<Card/>
+				<Card/>
+				<Card/>
 		<div className="text-center">
 		
             </div>
