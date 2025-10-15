@@ -5,18 +5,26 @@ import Jumbotron from "./Jumbotron";
 
 const Home = () => {
 	return (
-			<div>
-				<NavBar/>
-				<Jumbotron/>
-				<Card/>
-				<Card/>
-				<Card/>
-				<Card/>
-		<div className="text-center">
-		
-            </div>
-
-		</div>	
+		<div>
+			<NavBar />
+			<Jumbotron />
+			<div className="container my-4">
+				<div clasName="row justify-content-center">
+					<div className="col-md-3 mb-4">
+						<Card />
+					</div>
+					<div className="col-md3 mb-4">
+						<Card />
+					</div>
+					<div clasName="col-md-3 mb-4">
+						<Card />
+					</div>
+					<div className="col-md-3 mb-4">
+						<Card />
+					</div>
+				</div>
+			</div>
+		</div>
 	);
 };
 
