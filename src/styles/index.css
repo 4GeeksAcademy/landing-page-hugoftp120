@@ -2,5 +2,7 @@
     height : 30rem;
 }
 body {
-    background-image : url("https://media.istockphoto.com/id/157572574/es/foto/ondas-de-agua-en-la-playa-de-arena.webp?s=2048x2048&w=is&k=20&c=QNCxjJkiLqqaZ_PD8vM2OeMYEvgCAxXCX3koi_sp9VY=");
+    background-image : url("https://www.aquariumcostadealmeria.com/wp-content/uploads/2018/02/fondo-arenoso-1.jpg");
+    background-size : cover;
+    background-repeat: no-repeat;
 }

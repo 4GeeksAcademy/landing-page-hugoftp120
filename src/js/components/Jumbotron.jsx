@@ -5,8 +5,8 @@ const Jumbotron = (props) => {
         <div>
             <div className="card text mt-5 rounded-5 overflow-hidden"> {/*overflow*/}
                 <img src={props.imageUrl} className="object-fit-cover" style={{ height: "30rem" }} alt="..." />
-                <div className="card-img-overlay">
-                    <h5 className="card-title">Escuela de Surf</h5>
+                <div className="card-img-overlay d-flex flex-column justify-content-end w-50">
+                    <h5 className="card-title display-1 mb-3 jumbotron-title">Escuela de Surf</h5>
                     <p className="card-text">El surf es un deporte emocionante y desafiante que atrae a millones 
                         de personas en todo el mundo. Aprender a surfear puede ser una experiencia gratificante 
                         y enriquecedora, y una escuela de surf es el lugar ideal para comenzar este viaje.
