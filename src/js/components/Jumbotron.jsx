@@ -1,6 +1,5 @@
 
 const Jumbotron = (props) => {
-    console.log(props)
     return (
         <div>
             <div className="card text mt-5 rounded-5 overflow-hidden"> {/*overflow*/}
